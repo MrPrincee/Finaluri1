@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pandass"
+    tools:context=".info">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="77dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        app:srcCompat="@drawable/hello" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="242dp"
+        android:layout_height="80dp"
+        android:text="CarrlySitter"
+        android:textColor="#10238E"
+        android:textSize="45dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="122dp"
+        android:layout_height="39dp"
+        android:text="For your Baby!"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="370dp"
+        android:layout_height="122dp"
+        android:textColor="#ED0909"
+        android:text="1.მოხმარებისას გაითვალისწინეთ რომ ადმინისტრაცია არ აგებს პასუხს ძიძებზე შესაბამისად გთხოვთ დაკვირვებით შეარჩიო ძიძა თქვენი პატარასთვის რაც მოგცემთ საშუალებას არ ინერვიულოთ მასზე და მიიღოთ მაქსიმალური სიამოვნება მოცემული სერვისისგან!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="368dp"
+        android:layout_height="129dp"
+        android:textColor="#ED0909"
+        android:text="2.ასევე ადმინისტრაცია არ აგებს პასუხს ძიძების გაუმართავ მუშაობაზე, ეს ყველაფერი დამოკიდებულია მათზე და ასევე თანხაც ერთმანეთთან შეთანხმებით ხდება!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="368dp"
+        android:layout_height="129dp"
+        android:text="3.გაითვალისწინეთ რომ ძიძები თქვენს მისამართზე მოვლენ გარკვეული დროის შემდეგ ამიტომ წინასწარ უნდა დაჯავშნოთ ძიძის მოსვლის დრო რადგან უთანხმოებას არ ჰქონდეს ადგილი"
+        android:textColor="#ED0909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="368dp"
+        android:layout_height="129dp"
+        android:text="4.გმოგეხსენებათ ტრანსპორტირებას სჭირდება დრო ამიტომ ძიძებს ეკონტაქტეთ და აუცილებელ შემთხვევაში მოგვწერეთ ჩვენ და ჩვენი support team დაუყოვნებლივ გიპასუხებთ"
+        android:textColor="#ED0909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="73dp"
+        android:layout_height="94dp"
+        android:src="@drawable/ic_baseline_notification_important_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <ImageView
+        android:id="@+id/imageView75"
+        android:layout_width="73dp"
+        android:layout_height="94dp"
+        android:src="@drawable/ic_baseline_notification_important_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:src="@drawable/ic_baseline_settings_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
